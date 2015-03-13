@@ -220,8 +220,8 @@
     
 #if USE_COUCHBASE
     NSURL *remoteDbURL = [NSURL URLWithString:COUCHBASE_SYNC_URL];
-    [self startReplication:[store.database createPullReplication:remoteDbURL]];
-    [self startReplication:[store.database createPushReplication:remoteDbURL]];
+//    [self startReplication:[store.database createPullReplication:remoteDbURL]];
+//    [self startReplication:[store.database createPushReplication:remoteDbURL]];
 #endif
 		
     return persistentStoreCoordinator;

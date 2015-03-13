@@ -52,7 +52,7 @@
 @class Recipe;
 @class RecipeTableViewCell;
 
-@interface RecipeListTableViewController : UITableViewController <RecipeAddDelegate, NSFetchedResultsControllerDelegate> {
+@interface RecipeListTableViewController : UITableViewController <RecipeAddDelegate, NSFetchedResultsControllerDelegate, UISearchBarDelegate> {
     @private
         NSFetchedResultsController *fetchedResultsController;
         NSManagedObjectContext *managedObjectContext;

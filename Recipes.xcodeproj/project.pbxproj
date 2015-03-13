@@ -51,8 +51,9 @@
 		53CE97A011C6EA1000594C94 /* choosePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CE979C11C6EA1000594C94 /* choosePhoto.png */; };
 		53CE97A111C6EA1000594C94 /* convert.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CE979D11C6EA1000594C94 /* convert.png */; };
 		53CE97A211C6EA1000594C94 /* fork.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CE979E11C6EA1000594C94 /* fork.png */; };
-		AA24F90B184959700091D577 /* CBLIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24F909184959700091D577 /* CBLIncrementalStore.m */; };
-		AA24F90C184959700091D577 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA24F90A184959700091D577 /* CouchbaseLite.framework */; };
+		54DF87F71AB36A1300C1FE6E /* CBLIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DF87F61AB36A1300C1FE6E /* CBLIncrementalStore.m */; };
+		54DF87F91AB36A1900C1FE6E /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DF87F81AB36A1900C1FE6E /* CouchbaseLite.framework */; };
+		54EE6E2F1AB3796000B12414 /* RecipeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EE6E2E1AB3796000B12414 /* RecipeType.m */; };
 		AA90792118452E44002F2588 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA90792018452E44002F2588 /* CFNetwork.framework */; };
 		AA90792318452E4C002F2588 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA90792218452E4C002F2588 /* Security.framework */; };
 		AA90792518452E54002F2588 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA90792418452E54002F2588 /* SystemConfiguration.framework */; };
@@ -121,6 +122,11 @@
 		53CE979C11C6EA1000594C94 /* choosePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = choosePhoto.png; path = images/choosePhoto.png; sourceTree = "<group>"; };
 		53CE979D11C6EA1000594C94 /* convert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = convert.png; path = images/convert.png; sourceTree = "<group>"; };
 		53CE979E11C6EA1000594C94 /* fork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fork.png; path = images/fork.png; sourceTree = "<group>"; };
+		54DF87F51AB36A1300C1FE6E /* CBLIncrementalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLIncrementalStore.h; sourceTree = "<group>"; };
+		54DF87F61AB36A1300C1FE6E /* CBLIncrementalStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLIncrementalStore.m; sourceTree = "<group>"; };
+		54DF87F81AB36A1900C1FE6E /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
+		54EE6E2D1AB3796000B12414 /* RecipeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeType.h; sourceTree = "<group>"; };
+		54EE6E2E1AB3796000B12414 /* RecipeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeType.m; sourceTree = "<group>"; };
 		69A0E6140DE92A470087803E /* RecipePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipePhotoViewController.h; sourceTree = "<group>"; };
 		69A0E6150DE92A470087803E /* RecipePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipePhotoViewController.m; sourceTree = "<group>"; };
 		69D8E9400DE7A5FC0045AF3C /* RecipeAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeAddViewController.h; sourceTree = "<group>"; };
@@ -128,9 +134,6 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		966D0AFA0DF4CB4D0054F11F /* IngredientDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientDetailViewController.h; sourceTree = "<group>"; };
 		966D0AFB0DF4CB4D0054F11F /* IngredientDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientDetailViewController.m; sourceTree = "<group>"; };
-		AA24F908184959700091D577 /* CBLIncrementalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLIncrementalStore.h; sourceTree = "<group>"; };
-		AA24F909184959700091D577 /* CBLIncrementalStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLIncrementalStore.m; sourceTree = "<group>"; };
-		AA24F90A184959700091D577 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
 		AA90792018452E44002F2588 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		AA90792218452E4C002F2588 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		AA90792418452E54002F2588 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -143,7 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA24F90C184959700091D577 /* CouchbaseLite.framework in Frameworks */,
+				54DF87F91AB36A1900C1FE6E /* CouchbaseLite.framework in Frameworks */,
 				AA90792918452E62002F2588 /* libz.dylib in Frameworks */,
 				AA90792718452E5C002F2588 /* libsqlite3.dylib in Frameworks */,
 				AA90792518452E54002F2588 /* SystemConfiguration.framework in Frameworks */,
@@ -252,6 +255,8 @@
 			isa = PBXGroup;
 			children = (
 				28D3D9AC0FC33C27000F9EF1 /* Recipes.xcdatamodel */,
+				54EE6E2D1AB3796000B12414 /* RecipeType.h */,
+				54EE6E2E1AB3796000B12414 /* RecipeType.m */,
 				28FCBE780DE69516007A15C7 /* Recipe.h */,
 				28FCBE790DE69516007A15C7 /* Recipe.m */,
 				2858E7090FC6583300DEACE0 /* Ingredient.h */,
@@ -291,6 +296,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				54DF87F81AB36A1900C1FE6E /* CouchbaseLite.framework */,
+				54DF87F51AB36A1300C1FE6E /* CBLIncrementalStore.h */,
+				54DF87F61AB36A1300C1FE6E /* CBLIncrementalStore.m */,
 				AA90792A18452E70002F2588 /* Extra */,
 				AA90792818452E62002F2588 /* libz.dylib */,
 				AA90792618452E5C002F2588 /* libsqlite3.dylib */,
@@ -323,9 +331,6 @@
 		AA90792A18452E70002F2588 /* Extra */ = {
 			isa = PBXGroup;
 			children = (
-				AA24F908184959700091D577 /* CBLIncrementalStore.h */,
-				AA24F909184959700091D577 /* CBLIncrementalStore.m */,
-				AA24F90A184959700091D577 /* CouchbaseLite.framework */,
 			);
 			path = Extra;
 			sourceTree = "<group>";
@@ -419,7 +424,7 @@
 				28FCBF0C0DE6A6C6007A15C7 /* RecipeListTableViewController.m in Sources */,
 				283EA3640DEE388300DBD352 /* RecipeTableViewCell.m in Sources */,
 				184FEA3D0DEF6D4D00887625 /* UnitConverterTableViewController.m in Sources */,
-				AA24F90B184959700091D577 /* CBLIncrementalStore.m in Sources */,
+				54DF87F71AB36A1300C1FE6E /* CBLIncrementalStore.m in Sources */,
 				184FEA3E0DEF6D4D00887625 /* WeightConverterViewController.m in Sources */,
 				184FEA3F0DEF6D4D00887625 /* TemperatureConverterViewController.m in Sources */,
 				28963B450DFC7F5F005CC955 /* TemperatureCell.m in Sources */,
@@ -428,6 +433,7 @@
 				28D3D9AD0FC33C27000F9EF1 /* Recipes.xcdatamodel in Sources */,
 				28172EA70FC612370081FF0D /* RecipeAddViewController.m in Sources */,
 				2858E6570FC63C2500DEACE0 /* RecipeDetailViewController.m in Sources */,
+				54EE6E2F1AB3796000B12414 /* RecipeType.m in Sources */,
 				2858E65E0FC63FEB00DEACE0 /* RecipePhotoViewController.m in Sources */,
 				2858E66B0FC6404C00DEACE0 /* InstructionsViewController.m in Sources */,
 				2858E6C00FC6464700DEACE0 /* TypeSelectionViewController.m in Sources */,
@@ -516,6 +522,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Extra",
+					"/Users/gerardg/Downloads/couchbase-lite-ios-community_1.0.3.1",
+					"(2)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -537,6 +546,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Extra",
+					"/Users/gerardg/Downloads/couchbase-lite-ios-community_1.0.3.1",
+					"(2)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Recipes_Prefix.pch;

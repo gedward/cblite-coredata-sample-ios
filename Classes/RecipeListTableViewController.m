@@ -50,6 +50,7 @@
 #import "RecipeListTableViewController.h"
 #import "RecipeDetailViewController.h"
 #import "Recipe.h"
+#import "RecipeType.h"
 #import "RecipeTableViewCell.h"
 
 @implementation RecipeListTableViewController
@@ -72,7 +73,7 @@
     
     // Set the table view's row height
     self.tableView.rowHeight = 44.0;
-	
+    
 	NSError *error = nil;
 	if (![[self fetchedResultsController] performFetch:&error]) {
 		/*
@@ -87,12 +88,10 @@
     [self.tableView reloadData];
 }
 
-
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     // Support all orientations except upside down
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
-
 
 #pragma mark -
 #pragma mark Recipe support
@@ -183,6 +182,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	Recipe *recipe = (Recipe *)[fetchedResultsController objectAtIndexPath:indexPath];
+    RecipeType *type = (RecipeType *)recipe.type;
+    NSLog(@"Type: %@", recipe.type);
     
     [self showRecipe:recipe animated:YES];
 }
@@ -228,6 +229,10 @@
         
         [fetchRequest setSortDescriptors:sortDescriptors];
         
+//        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"overview CONTAINS[c] %@", @"chocolate"];
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"type.name CONTAINS[c] %@", @"s"];
+        fetchRequest.predicate = predicate;
+
         // Edit the section name key path and cache name if appropriate.
         // nil for section name key path means "no sections".
         NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:managedObjectContext sectionNameKeyPath:nil cacheName:nil];
